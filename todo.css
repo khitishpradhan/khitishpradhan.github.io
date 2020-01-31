@@ -3,7 +3,7 @@ body{
 }
 
 #container{
-    width: 400px;
+    width: 500px;
     height: auto;
     margin: 0 auto;
     text-align: center;
@@ -32,7 +32,7 @@ body{
     width: 80%;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
-    height: 40px;
+    min-height: 40px;
     margin: 5px auto;
     text-align: left;
     overflow: hidden;
@@ -45,6 +45,7 @@ body{
     height: 100%;
     line-height: 40px;
     font-size: 20px;
+
 }
 
 #container ul li #check {
@@ -88,6 +89,7 @@ body{
     margin-bottom: 20px;
     border: 2px solid #b5c5dd;
     border-radius: 10px;
+
 }
 #container .controls #input:focus {
     outline: 0;
