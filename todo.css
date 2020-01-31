@@ -35,6 +35,8 @@ body{
     height: 40px;
     margin: 5px auto;
     text-align: left;
+    overflow: hidden;
+    word-wrap: break-word;
 }
 
 #container ul li label{
